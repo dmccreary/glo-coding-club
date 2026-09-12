@@ -61,9 +61,15 @@ theme:
   name: material
   logo: img/glo-logo-white.png
   # favicon: img/favicon.ico
+  # Font and palette matched to https://www.groveslearning.org/ (Poppins,
+  # primary blue #00649B, accent cyan #01BADE). Exact hex values are set via
+  # CSS custom properties in docs/css/extra.css — the names below just pick
+  # the closest built-in Material swatches so light/dark contrast still works.
+  font:
+    text: Poppins
   palette:
-    primary: 'indigo'
-    accent: 'orange'
+    primary: 'blue'
+    accent: 'cyan'
   include_sidebar: true
   features:
     - content.code.copy

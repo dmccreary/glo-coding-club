@@ -1,3 +1,39 @@
+/* ---------------------------------------------------------------------
+   GLO brand styling, matched to https://www.groveslearning.org/
+   (Poppins font, primary blue #00649B, accent cyan #01BADE, body text
+   #404040). Font family is set via theme.font.text in mkdocs.yml; the
+   colors below override Material's default CSS custom properties.
+   Navigation structure/features are untouched — this file only affects
+   typography and color.
+   --------------------------------------------------------------------- */
+:root {
+  --md-primary-fg-color: #00649b;
+  --md-primary-fg-color--light: #01bade;
+  --md-primary-fg-color--dark: #004a75;
+  --md-accent-fg-color: #01bade;
+  --md-accent-fg-color--transparent: #01bade1a;
+  --md-accent-bg-color: #ffffff;
+  --md-accent-bg-color--light: #ffffffb3;
+
+  /* Body text color, matching groveslearning.org's article copy */
+  --md-typeset-color: #404040;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  color: #00649b;
+  font-weight: 600;
+}
+
+/* Pill-shaped buttons, matching the "Contact Us" button style used
+   throughout groveslearning.org */
+.md-typeset .md-button {
+  border-radius: 27px;
+  font-weight: 600;
+  padding: 0.5em 1.6em;
+}
+
 .md-header__button.md-logo {
     margin: 0;
     padding: 0;
