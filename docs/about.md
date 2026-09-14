@@ -1,21 +1,14 @@
 # About
 
-An interactive textbook for learning coding through creative projects at GLO Coding Club.
+This is a guide to the Groves Learning Organization Coding Club.
 
-## Audience
+It includes the following topics:
 
-Describe the intended reader: their background, prerequisites, and what they
-should be able to do after working through the book.
+1. Logistics about our club - when and were we meet
+2. Topic covered - Scratch, Turtle Graphics, Python and Build-Your-Own Projects
+3. Sample projects
+3. Contact names
+4. Volunteering
+5. Background checks
 
-## How to Use This Book
-
-- Read chapters in order — concepts are introduced in dependency order.
-- Use the search bar (top right) to jump to a specific term.
-- Try the MicroSims as you encounter them; they are the fastest way to build
-  intuition for a new concept.
-- Check the [Learning Graph](learning-graph/index.md) when you want to see how
-  a concept fits into the larger picture.
-
-## Author
-
-Dan McCreary
+- Dan
